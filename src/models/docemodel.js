@@ -43,7 +43,7 @@ class categoriamodel {
                     console.debug(erro)
                     reject([400,erro])
                 }
-                resolve([200,"Atualizado"])
+                resolve([200,"Doce atualizado"])
             })
         });
     }
@@ -56,15 +56,11 @@ class categoriamodel {
                     console.debug(erro)
                     reject([400,erro])
                 }
-                resolve([200,"Deletado"])
+                resolve([200,"Doce deletado"])
             })
         });
     }
 }
-
-
-
-
 
 
 export default new docemodel();

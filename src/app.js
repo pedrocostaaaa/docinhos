@@ -9,7 +9,7 @@ const server = express()
 server.use(express.json())
 
 server.get("/",(req,res)=>{
-    res.status(200).json("servidor funcionando")
+    res.status(200).json("Servidor funcionando")
 })
 
 server.post("/categoria",categoriacontroller.create)
